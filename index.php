@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Cartas</title>
     <style>
-        body {
-           background-color: #99f2b1;
+       body {
+          background-color: #99f2b1;
            font-family: 'Verdana';
        }
        input{
            background-color: #57ad6e;
-       }
+      }
        button{
         background-color: #57ad6e;
         font-family: 'Verdana';
