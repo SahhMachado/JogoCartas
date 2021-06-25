@@ -41,7 +41,7 @@
     ?> 
 </head>
 <body>
-    <form action="" method="post">
+    <form action="cartas.php" method="post">
     Jogador: <input type="text" name="nome" id="nome"><br><br>
     <input type="radio" id="ouros" name="naipe" value="ouros">
     <label for="ouros">Ouros</label><br>
