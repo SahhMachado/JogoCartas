@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "alice";
+    src: url("../font/Alice_in_Wonderland_3.ttf");
+}
+
+@font-face {
+    font-family: "just";
+    src: url("../font/Just.ttf");
+}
+
+@keyframes animate {
+    from{
+        border-left: rgba(255, 255, 255, 0.342) 5px dashed;
+        border-right: rgba(255, 255, 255, 0.342) 5px dashed; 
+    }
+    to{
+        border-left: white 5px dashed;
+        border-right: white 5px dashed; 
+    }
+}
+
+body{
+    color: white;
+    font-family: "just";
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+#seletor{
+    background-color: #ab2337;
+    animation: animate 1.5s infinite;
+    margin-left: 35%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 0%;
+    width: 30%;
+    height: 100em;
+}
+
+#result{
+    margin-top: -15%;
+}
+
+#player{
+    font-size: 1.5em;
+}
+
+#back{
+    margin-left: 1%;
+    width: 12%;
+}
+
+#back:hover{
+    transform:scale(1.2,1.2);
+    -webkit-filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+    filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+}

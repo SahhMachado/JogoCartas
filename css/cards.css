@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "alice";
+    src: url("../font/Alice_in_Wonderland_3.ttf");
+}
+
+@font-face {
+    font-family: "just";
+    src: url("../font/Just.ttf");
+}
+
+@keyframes animate {
+    from{
+        border-left: rgba(255, 255, 255, 0.342) 5px dashed;
+        border-right: rgba(255, 255, 255, 0.342) 5px dashed; 
+    }
+    to{
+        border-left: white 5px dashed;
+        border-right: white 5px dashed; 
+    }
+}
+
+body{
+    color: white;
+    font-family: "just";
+}
+
+form{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+form > label{
+    font-family: "alice";
+    font-size: 2em;
+}
+
+#seletor{
+    background-color: #ab2337;
+    animation: animate 1.5s infinite;
+    margin-left: 35%;
+    padding: 0.5%;
+    width: 30%;
+    height: 90em;
+}
+
+#back{
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+#back:hover{
+    transform:scale(1.2,1.2);
+    -webkit-filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+    filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+}
+
+#naipe{
+    margin-left: 5%;
+}
+
+#opc{
+    font-size: 1.3em;
+}
+
+#num{
+    border: none;
+    background-color: white;
+    width: 80%;
+    height: 2em;
+    opacity: 50%;
+    padding-left: 1%;
+}
+
+#num:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+select:hover{
+    -webkit-filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+    filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+}
+
+option{
+    background-color: #ab2337;
+    opacity: 50%;
+}
+
+option:hover{
+    -webkit-filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+    filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+}
+
+button{
+    font-family: "alice";
+    color: white;
+    background-color: transparent;
+    font-size: 2em;
+    border: none;
+    padding: 5%;
+    margin-left: 1%;
+}
+
+button:hover{
+    cursor: pointer;
+    transform:scale(1.2,1.2);
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+#jogo{
+    margin-top: -15%;
+    margin-left: 60%;
+    font-size: 1em;
+}
+
+#player{
+    font-size: 1.5em;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "alice";
+    src: url("../font/Alice_in_Wonderland_3.ttf");
+}
+
+@font-face {
+    font-family: "just";
+    src: url("../font/Just.ttf");
+}
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+
+body{
+    color: white;
+}
+
+#h1{
+    font-size: 4em;
+    margin-left: -5%;
+    font-family: 'alice';
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#h3{
+    font-size: 1.8em;
+    font-family: 'just';
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#nm{
+    color: white;
+    display: inline;
+    float: left;
+    padding-right: 1%;
+    margin-top: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#input{
+    opacity: 50%;
+    background-color: white;
+    height: 3vw;
+    width: 40%;
+    margin-top: -28%;
+    margin-left: -4%;
+    display: flex;
+    float: left;
+}
+
+#input:hover{
+    -webkit-filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+    filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+}
+
+#intro{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+form{
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+input{
+    color: grey;
+    background: none;
+    padding-left: 4%;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+button{
+    height: 100%;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 4%;
+    border-top: none;
+    border-left: 1px color grey;
+    border-bottom: none;
+    border-right: none;
+}
+
+button:hover{
+    cursor: pointer;
+    transform:scale(1.1,1.1);
+    -webkit-filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+    filter: drop-shadow(0.1em 0.1em 0.2em rgba(255, 255, 255, 0.514)); 
+}
